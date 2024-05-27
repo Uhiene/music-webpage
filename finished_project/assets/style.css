@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
-    border-top: 2px solid #ff6a00;
+    border-top: 4px solid #ff6a00;
 }
 
 /* Logo container and navigation list styles */
@@ -40,6 +40,7 @@ header {
 .nav-list li a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .nav-list li a:hover {
@@ -165,7 +166,7 @@ header {
 .content-section article h2 {
     font-size: 3rem;
     color: darkslategray;
-    font-weight: thin;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -217,20 +218,20 @@ header {
         position: fixed;
         top: 20%;
         right: 0;
-        width: 250px;
+        width: 100%;
         transform: translateY(-50%);
-        z-index: 1000;
+        z-index: 10;
         transition: transform 0.3s ease-in-out;
         text-align: center;
         padding: 40px 20px;
-        border-radius: 20px;
-
+        border-radius: 0px;
     }
 
     .nav-list li a {
         color: #ee0979;
-        font-size: 20px;
+        font-size: 23px;
         margin-top: 10px;
+        font-weight: 500;
     }
 
     .hero-section .hero-content h1 {
